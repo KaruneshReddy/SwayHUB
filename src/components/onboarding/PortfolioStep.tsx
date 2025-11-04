@@ -216,6 +216,7 @@ export function PortfolioStep({ data, onUpdate, onNext, onBack }: PortfolioStepP
                           <ExternalLink className="w-3 h-3" />
                           <span>View</span>
                         </a>
+                      </Button>
                       )}
                   </div>
                 </CardContent>
