@@ -247,3 +247,4 @@ export function PortfolioStep({ data, onUpdate, onNext, onBack }: PortfolioStepP
     </div>
   )
 }
+}
