@@ -33,7 +33,11 @@
     "lucide-react": "^0.460.0",
     "clsx": "^2.1.1",
     "tailwind-merge": "^2.5.4",
-    "bcryptjs": "^2.4.3"
+    "bcryptjs": "^2.4.3",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.2",
+    "@radix-ui/react-label": "^2.1.0",
+    "class-variance-authority": "^0.7.0"
   },
   "devDependencies": {
     "typescript": "^5.7.2",
