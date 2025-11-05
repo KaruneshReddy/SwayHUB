@@ -55,7 +55,7 @@ export interface SocialMediaLink {
   platform: 'instagram' | 'tiktok' | 'youtube' | 'twitter' | 'linkedin' | 'facebook'
   url: string
   followers?: number
-  verified: boolean
+  verified?: boolean
 }
 
 export interface SocialMediaVerification {
@@ -104,8 +104,8 @@ export interface CampaignFormData {
   description: string
   budget: number
   campaignType: CampaignType
-  requirements: any
-  targetAudience: any
+  requirements?: any
+  targetAudience?: any
   deadline?: Date
 }
 
@@ -114,10 +114,10 @@ export interface InfluencerOnboardingData {
   bio: string
   location?: string
   profileImageUrl?: string
-  nicheCategories: string[]
-  socialLinks: SocialMediaLink[]
-  pricingPerPost: number
-  pricingPerStory: number
+  nicheCategories?: string[]
+  socialLinks?: SocialMediaLink[]
+  pricingPerPost?: number
+  pricingPerStory?: number
 }
 
 export interface SponsorOnboardingData {
@@ -130,6 +130,6 @@ export interface SponsorOnboardingData {
     min: number
     max: number
   }
-  targetAudience: any
-  campaignPreferences: any
+  targetAudience?: any
+  campaignPreferences?: any
 }
